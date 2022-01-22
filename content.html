@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="Shift-jis" />
+    <meta name="viewport" content="width=device-width">
+    <title>サービス案内　Boards</title>
+
+    <link rel="preconnect" href="https://fronts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
+
+    <link href="css/all.css" rel="stylesheet" />
+
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <!--ヘッダーである事を明示的にする--->
+    <header class="header">
+        <!--ヘッダーの中のコンテナである事を明示的にする--->
+        <div class="header-container w-container">
+            <!--ヘッダーの中のロゴ画像枠--->
+            <div class="site">
+                <a href="index.html">
+                    <!--alt属性は検索エンジンに伝えるためサイト名にしている--->
+                    <img src="img/logo.svg"
+                         alt="Boards"
+                         width="135" height="26" />
+                </a>
+            </div>
+
+            <button class="navbtn">
+                <i class="fas fa-bars"></i>
+                <span class="sr-only">MENU</span>
+            </button>
+        </div>
+    </header>
+
+    <article class="entry">
+        <figure class="entry-img">
+            <img src="img/service.jpg" alt=""
+                 width="1600" height="470" />
+        </figure>
+
+        <div class="w-container">
+            <h1 class="heading-decoration">サービス案内</h1>
+            <p>Services</p>
+            <div class="entry-container">
+                <p>身近に溢れるたくさんの文具や事務用品。こうしたステーショナリーは仕事に欠かせないものであると同時に、毎日を楽しくしてくれるものであり、クリエイティブを刺激してくれるものであります。</p>
+                <p>そして、デジタル化が進んだ現在では、スマートフォンやパソコンの中で便利な道具と必要とされるようになっています</p>
+                <p>Boardsではサブスクリプション形式で、さまざまな道具の提供、販売、貸し出しなどのサービスを展開しています。</p>
+                <p>主要都市にある工房スペースでは、最新の3Dプリンターやレーザーカッター、施盤等の各種工具などもご利用いただけます。</p>
+                <p>もちろん、オンライン上の便利な制作・管理ツールも取り揃えていますので、どんどん活用してください。</p>
+            </div>
+        </div>
+    </article>
+
+    <section class="plans">
+        <div class="w-container">
+            <h2 class="heading">
+                Service Plans
+                <span>サービスプラン</span>
+            </h2>
+
+            <div class="plans-container">
+                <div class="plan">
+                    <h3>Free</h3>
+                    <p class="desc">
+                        RPAに関する疑問や業務効率化に関する疑問をメールで回答します。個人向け。
+                    </p>
+                    <p class="price">無料</p>
+                    <a href="#" class="btn">使ってみる</a>
+                </div>
+
+                <div class="plan">
+                    <h3>Standard</h3>
+                    <p class="desc">
+                        RPAを実際に操作しRPAで何ができるかを実感してもらうためのコースです。デジタルレイバーを1台作成します。
+                    </p>
+                    <p class="price">30,000円/月</p>
+                    <a href="#" class="btn btn-accent">使ってみる</a>
+                </div>
+
+                <div class="plan">
+                    <h3>Pro</h3>
+                    <p class="desc">
+                        マンツーマンでプロのRPA開発者を育成します。RPAの操作方法・RPA化業務の見つけ方・設計方法・長期運用に即した実装方法等
+                        限りなく現場で活躍できる開発者を育成します。
+                    </p>
+                    <p class="price">80,000円/月</p>
+                    <a href="#" class="btn btn-accent">使ってみる</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container w-container">
+            <div class="footer-site">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="Boards" width="135" height="26" />
+                </a>
+            </div>
+
+            <ul class="footer-sns">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                        <span class="sr-only">FaceBook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="footer-menu">
+                <li><a href="#">会社概要</a></li>
+                <li><a href="#">特定商取引法</a></li>
+                <li><a href="#">個人情報の取り扱い</a></li>
+                <li><a href="content.html">サービス案内</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+
+            <div class="footer-copy">
+                @ Boards Production.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
