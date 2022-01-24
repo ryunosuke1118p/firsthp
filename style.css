@@ -193,7 +193,7 @@ img{
 
 .posts-container{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(1,1fr);
     gap:32px 25px;
 }
 @media(min-width:768px){
@@ -373,12 +373,12 @@ img{
     }
 }
 
-.plan{
-    display:flex;
-    flex-direction:column;
-    padding:60px;
-    border-radius:20px;
-    background-color:#ffffff;
+.plan {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: #ffffff;
 }
 
 .plan h3{
@@ -388,9 +388,9 @@ img{
     font-weight:400;
 }
 
-.plan .desc{
-    margin-bottom:38px;
-}
+    .plan .desc {
+        margin-bottom: 38px;
+    }
 
 .plan .price{
     margin-top:auto;
