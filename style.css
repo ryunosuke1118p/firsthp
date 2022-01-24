@@ -214,7 +214,7 @@ img{
 
 .post p{
     max-width:20em;
-    font-size:clamp(10px,1.6vw,14px);
+    font-size:clamp(15px,1.6vw,14px);
     min-height:0vw;
 }
 
